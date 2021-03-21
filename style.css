@@ -65,19 +65,13 @@ table {
     display: grid;
     grid-template-columns: repeat(var(--user-grid-num), 1fr);
     grid-template-rows: repeat(var(--user-grid-num), 1fr);
-    width: 840px;
-    height: 840px;
+    width: 800px;
+    height: 800px;
+    border: solid 3px grey;
 }
 
 .grid-cell {
-    margin: 4px;
-    background-color: violet;
-}
-
-.cell-colour {
-    background-color: lightsalmon;
-    transition-property: background-color;
-    transition-duration: 0.3s;
+    border: solid 1px grey;
 }
 
 button {
